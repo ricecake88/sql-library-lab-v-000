@@ -1,5 +1,10 @@
 CREATE TABLE Characters (
-  id INTEGER PRIMARY KEY
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  motto TEXT,
+  species TEXT,
+  author_id INTEGER,
+  series_id INTEGER
 );
 
 CREATE TABLE Books (
